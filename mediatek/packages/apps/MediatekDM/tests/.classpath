@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/robotium-solo_intermediates/javalib.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/robotium_intermediates/javalib.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/android.test.runner_intermediates/javalib.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/CustomProperties_intermediates/classes-full-debug.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/mediatek-common_intermediates/classes-full-debug.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/mediatek-framework_intermediates/classes-full-debug.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes-full-debug.jar"/>
+	<classpathentry kind="lib" path="/proj/mtk81226/Loads/alps.jb5.mp/out/target/common/obj/JAVA_LIBRARIES/secondary-framework_intermediates/classes-full-debug.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JB5MDM"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

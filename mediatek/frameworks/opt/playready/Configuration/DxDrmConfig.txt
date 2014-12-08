@@ -1,0 +1,30 @@
+#Filter the log output from irrelevant modules
+DisabledModules = 10
+DebugLevel = 40
+
+LogFile=/data/DxDrm/Logs/cln
+
+LogcatLogs=True
+
+#log the HTTP communication
+#JavaHTTPLog=true
+#HttpLog=/data/DxDrm/Logs
+
+PlayReadyLog = /data/DxDrm/Logs
+
+#Provisioning data
+SecureDBPath = /data/DxDrm/DxSecureDB
+NVSPath = /data/DxDrm/NVS
+DeviceKeyPath = /data/DxDrm/DxDeviceKey
+PlayReadyStorePath = /data/DxDrm/DxPlayReadyDB.hds
+KeyFilePath = /data/DxDrm/
+KeyFile = DxKeyFile.dat
+KeyFileName = DxKeyFile.dat
+AutoProvisionPlayReady = PlayReady, /data/DxDrm/Credentials/PlayReady
+mbcba=False
+#GoogleFrameworkPluginName = newPluginName
+
+SupportAllMimeTypes=true
+
+# uncomment this line in order to support multi-user file name translation
+TranslateUserPath=false
