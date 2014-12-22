@@ -73,4 +73,3 @@ EMI_SETTINGS emi_settings[] =
         0x00000020,        //EXT_MODE_REG
     },
 };
-
