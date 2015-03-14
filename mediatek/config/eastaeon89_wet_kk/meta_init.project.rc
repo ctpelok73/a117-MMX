@@ -32,8 +32,29 @@ on post-fs
     chown system system /dev/wmtWifi
 
 #Camera
-    chmod 0660 /dev/OV8825AF
+   chmod 0660 /dev/OV8825AF
     chown system camera /dev/OV8825AF
+
+    chmod 0660 /dev/OV8825TRULYAF
+    chown system camera /dev/OV8825TRULYAF
+
+    chmod 0660 /dev/OV8826AF
+    chown system camera /dev/OV8826AF
+
+    chmod 0660 /dev/FM50AF_IMX179
+    chown system camera /dev/FM50AF_IMX179
+
+    chmod 0660 /dev/OV8835AF
+    chown system camera /dev/OV8835AF
+
+    chmod 0660 /dev/OV12830AF
+    chown system camera /dev/OV12830AF
+
+    chmod 0660 /dev/FM50AF
+    chown system camera /dev/FM50AF
+
+    chmod 0660 /dev/OV12830TRULYAF
+    chown system camera /dev/OV12830TRULYAF
 
 # BT
     chmod 0660 /dev/stpbt

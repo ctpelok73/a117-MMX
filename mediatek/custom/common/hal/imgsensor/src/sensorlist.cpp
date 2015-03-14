@@ -234,6 +234,9 @@ MSDK_SENSOR_INIT_FUNCTION_STRUCT SensorList[] =
 #if defined(IMX135_MIPI_RAW)
     RAW_INFO(IMX135_SENSOR_ID, SENSOR_DRVNAME_IMX135_MIPI_RAW,NULL), 
 #endif
+#if defined(ov12830_mipi_raw_truly)
+    RAW_INFO(ov12830_SENSOR_ID, SENSOR_DRVNAME_ov12830_mipi_raw_truly,NULL),
+#endif
 
 /*  ADD sensor driver before this line */
     {0,{0},NULL, NULL, NULL}//end of list
