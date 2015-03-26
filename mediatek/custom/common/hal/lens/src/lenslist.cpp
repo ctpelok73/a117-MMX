@@ -18,6 +18,10 @@ extern PFUNC_GETLENSDEFAULT pDummy_getDefaultData;
 extern PFUNC_GETLENSDEFAULT pSensorDrive_getDefaultData;
 #endif
 
+#if defined(FM50AF_IMX179)
+extern PFUNC_GETLENSDEFAULT pFM50AF_getDefaultData;
+#endif
+
 #if defined(FM50AF)
 extern PFUNC_GETLENSDEFAULT pFM50AF_getDefaultData;
 #endif
@@ -63,6 +67,10 @@ MSDK_LENS_INIT_FUNCTION_STRUCT LensList[MAX_NUM_OF_SUPPORT_LENS] =
 
     //  for backup lens, need assign correct SensorID
     //{OV5642_SENSOR_ID, SENSOR_DRIVE_LENS_ID, "kd_camera_hw", pSensorDrive_getDefaultData},
+#endif
+
+#if defined(FM50AF_IMX179)
+		{FM50AF_IMX179_SENSOR_ID, FM50AF_IMX179_LENS_ID, "OV12830AF", pFM50AF_IMX179_getDefaultData},
 #endif
 
 #if defined(OV8825AF)

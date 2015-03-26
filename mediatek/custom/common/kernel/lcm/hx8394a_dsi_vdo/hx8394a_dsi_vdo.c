@@ -481,6 +481,9 @@ static unsigned int lcm_compare_id(void)
 	unsigned char buffer[2];
 	unsigned int array[16];  
 
+        return 1;
+
+#if 0			//add by lishengli 20130730 be anber to entry meta without LCM
 	SET_RESET_PIN(1);
 	SET_RESET_PIN(0);
 	MDELAY(1);
@@ -518,6 +521,7 @@ static unsigned int lcm_compare_id(void)
    #endif
 
 	return (LCM_ID_HX8394 == id)?1:0;
+#endif
 }
 
 #if 0
